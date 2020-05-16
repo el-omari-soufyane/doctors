@@ -1,0 +1,106 @@
+/* 
+    STYLING DATA TABLES FOR DASHBOARD
+*/
+
+.dataTables_wrapper {
+    position: relative;
+    clear: both;
+    zoom: 1;
+    background: #fff;
+    margin-top: 2rem;
+    padding: 0 10px;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+
+table.dataTable.no-footer {
+    border-bottom : 0;
+}
+
+.row.card-header.card-header-primary-tab {
+    background: #9c27b0;
+    border-radius: 5px;
+    width: 97%;
+    margin: auto;
+    position: relative;
+    top: -25px;
+}
+
+table.dataTable.row-border tbody th, 
+table.dataTable.row-border tbody td, 
+table.dataTable.display tbody th, 
+table.dataTable.display tbody td {
+    border-top: 0;
+}
+
+table.dataTable.stripe tbody tr.odd, table.dataTable.display tbody tr.odd {
+    background-color: #e4e4e4;
+}
+
+table.dataTable thead th {
+    text-align: center;
+    font-family: "Roboto";
+    color: #841098;
+    line-height: 2rem;
+    border-bottom: 1px solid #d452ea;
+}
+
+table.dataTable tbody td {
+    text-align: center;
+}
+
+.dataTables_length .form-check, label {
+    color: #fff;
+}
+
+.dataTables_length .custom-select {
+    background: #b12dc7;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    padding: 0 15px;
+    margin: 5px 0;
+}
+
+.dataTables_filter input {
+    background: #b12dc7;
+    color: #fff;
+    padding: 0 10px;
+    border-bottom: 1px solid #fff;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    border: 0;
+    background: transparent;
+}
+
+.page-item.active .page-link {
+    z-index: 1;
+    color: #ffffff;
+    background-color: #9c27b0;
+    border-color: #d660ea;
+}
+
+.page-link {
+    position: relative;
+    display: block;
+    padding: 0.5rem 0.75rem;
+    margin-left: 2px;
+    line-height: 1.25;
+    color: #000;
+    background-color: #eee;
+    border: 0 solid #dee2e6;
+}
+
+.page-link:hover {
+    color: #000;
+    text-decoration: none;
+    background-color: #d0d0d0;
+    border-color: #dee2e6;
+}

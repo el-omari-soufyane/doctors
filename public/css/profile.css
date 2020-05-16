@@ -1,0 +1,100 @@
+.side-bar {
+    background: #fff;
+}
+
+.side-bar h5.tittle {
+    font-size: 18px;
+    padding: 20px;
+    margin: 0px;
+    color: #333333;
+    letter-spacing: 1px;
+	border-bottom: 1px solid #e6e6e6;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+.side-bar .personal-info {
+    padding: 25px;
+    border-bottom: 1px solid #e6e6e6;
+}
+
+.side-bar .personal-info li {
+	list-style: none;
+}
+.side-bar .personal-info li p {
+    margin: 0px;
+    line-height: 30px;
+}
+
+.side-bar .personal-info li span {
+    width: 36%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.inside-sec {
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+}
+.inside-sec h5.tittle {
+    font-size: 18px;
+    padding: 20px;
+    margin: 0px;
+    color: #333333;
+    letter-spacing: 1px;
+	border-bottom: 1px solid #e6e6e6;
+	font-weight: bold;
+    text-transform: uppercase;
+}
+
+.padding-top-10 {
+    padding-top: 10px !important;
+}
+
+.about-me .personal-info {
+    padding: 25px;
+    display: inline-block;
+    width: 100%;
+}
+
+.about-me .personal-info li {
+    width: 50%;
+	float: left;
+	list-style: none;
+	font-size: 14px;
+}
+
+.about-me .personal-info li p {
+    margin: 0px;
+    line-height: 30px;
+}
+
+.about-me .personal-info li span {
+    width: 40%;
+    float: left;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+ul.list-files {
+    padding: 0;
+    margin: 0;
+}
+
+ul.list-files li {
+    list-style: none;
+    background: #dcdcdc;
+    padding: 10px 20px;
+    border-bottom: 2px solid #fff;
+    cursor: pointer;
+    transition: .5s;
+}
+
+ul.list-files li:hover {
+    padding-left: 30px;
+    background: #c5c5c5;
+    font-size: 18px;
+}
